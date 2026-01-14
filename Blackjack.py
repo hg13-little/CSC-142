@@ -24,7 +24,6 @@ def calculate_score(hand):
         else:
             score += 1
 
-    return score
 
 
 # Print game status
@@ -100,6 +99,3 @@ def main():
     else:
         print("It's a tie!")
 
-# Run the game
-if __name__ == "__main__":
-    main()
