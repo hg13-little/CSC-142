@@ -38,7 +38,7 @@ RED = (255, 0, 0)
 # --------------------
 # Load sound (choose any sound you like)
 # --------------------
-success_sound = pygame.mixer.Sound("boing.wav")
+success_sound = pygame.mixer.Sound('boing.wav')
 
 # --------------------
 # Ball setup
