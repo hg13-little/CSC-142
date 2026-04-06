@@ -1,9 +1,7 @@
 import pygame
 import random
 
-# -----------------------------
-# Raindrop Class (Part 2)
-# -----------------------------
+
 class Raindrop:
     __slots__ = ("x", "y", "radius")
 
@@ -19,9 +17,7 @@ class Raindrop:
         pygame.draw.circle(window, (0, 0, 255), (self.x, self.y), self.radius)
 
 
-# -----------------------------
-# Raindrops Manager (Parts 1, 3, 4)
-# -----------------------------
+
 class RaindropsManager:
     RAIN_RATE = 500      # milliseconds
     MAX_RADIUS = 40
